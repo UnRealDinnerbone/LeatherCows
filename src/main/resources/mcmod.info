@@ -1,0 +1,16 @@
+[
+{
+  "modid": "leathercows",
+  "name": "Leather Cows",
+  "description": "Cows Pop Leather",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://minecraft.curseforge.com/projects/leather-cows",
+  "updateUrl": "",
+  "authorList": ["UnRealDinnerbone"],
+  "credits": "#BlameTfox",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
