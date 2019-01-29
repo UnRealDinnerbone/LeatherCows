@@ -7,11 +7,8 @@ import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.passive.EntityCow;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
-import net.minecraft.init.Enchantments;
 import net.minecraft.init.Items;
 import net.minecraft.init.SoundEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
@@ -35,8 +32,7 @@ public class EntityLeatherCow extends EntityCow {
     }
 
     public void updateNextLeatherTime() {
-        int time = MathHelper.getRandomInt(rand, LeatherCowsConfig.leatherCowminTimeBeforeDrop, LeatherCowsConfig.leatherCowmaxTimeBeforeDrop);
-        this.timeUntilNextLeather = time;
+        this.timeUntilNextLeather = MathHelper.getRandomInt(rand, LeatherCowsConfig.leatherCowminTimeBeforeDrop, LeatherCowsConfig.leatherCowmaxTimeBeforeDrop);
     }
 
     protected void applyEntityAttributes() {
