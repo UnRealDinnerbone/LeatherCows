@@ -52,6 +52,5 @@ public class EntityLeatherCow extends EntityCow {
             }
         }
         return super.processInteract(entityPlayer, hand);
-
     }
 }
